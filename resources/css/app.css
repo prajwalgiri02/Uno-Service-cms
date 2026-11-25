@@ -1,0 +1,7 @@
+@import './theme.css';
+@import 'tailwindcss';
+@import './styles.css';
+@import './components.css';
+@import './pages.css';
+
+@source '../../storage/framework/views/*.php';

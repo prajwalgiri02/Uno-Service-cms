@@ -1,0 +1,41 @@
+/* Najik admin palette, taken from the "Admin web" page in Figma. */
+:root {
+    --plum-900: #38243f;
+    --plum-700: #4f3757;
+    --plum-100: #e6e0e9;
+    --plum-50: #efebf1;
+
+    --yellow-500: #f5e94e;
+    --yellow-100: #fbf8d2;
+    --yellow-border: #e8d96a;
+
+    --ink: #211e24;
+    --muted: #6b6670;
+    --line: #e6e0e9;
+    --line-soft: #efebf1;
+    --bg: #faf9f6;
+    --surface: #ffffff;
+
+    --success: #1e7b50;
+    --success-bg: #ddf3e8;
+    --danger: #b3321a;
+    --danger-icon: #d5422c;
+    --danger-bg: #fde3e0;
+    --warning: #8a6a00;
+    --warning-bg: #fff1c2;
+
+    --radius-input: 12px;
+    --radius-card: 20px;
+    --radius-pill: 100px;
+}
+
+@theme {
+    --font-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+    --color-plum: var(--plum-900);
+    --color-plum-soft: var(--plum-100);
+    --color-yellow: var(--yellow-500);
+    --color-ink: var(--ink);
+    --color-muted: var(--muted);
+    --color-line: var(--line);
+    --color-bg: var(--bg);
+}
